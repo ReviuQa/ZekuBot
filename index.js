@@ -5,7 +5,7 @@ var Zeku = new commando.CommandoClient({
 
 });
 
-Zeku.login('NDg0OTk3MjQ4OTM4NDEwMDE0.DmqIfQ.OWItmqMDaqMSmxP0zHyB3i12qXo')
+Zeku.login('process.env.token')
 
 Zeku.registry.registerGroup('other', 'Other');
 Zeku.registry.registerCommandsIn(__dirname + "/commands")
